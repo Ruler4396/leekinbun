@@ -42,8 +42,8 @@ AGENTS.md                     # 可选模板：用户级指令文件，只引入
 
 只改 `skills/<name>/SKILL.md` 这一份，然后按上文重装。**不要往 `AGENTS.md` 或 Agent 的配置文件里抄规则**——两处各一份必然会漂。
 
-`leekinbun` 正文第八节把这份 skill 自己也写成了状态机（`Drafting` → `Active` → `Reviewing` → `Refactoring`），触发复盘的条件和压测方法都在里面，所以"改进它"本身有流程，不是想改就改。
+每次修订以 commit 为版本（v3 → v3.1 → …），改完同步 `SKILL.md` 头部的版本号与日期，并重装本机各 Agent 的副本。
 
 ## 当前状态
 
-`leekinbun`：`Active`（执行中），2026-10-12 起。本机 `~/.agents/skills/leekinbun/SKILL.md`（ZCode）与仓库那份逐字节一致。
+`leekinbun`：`Active`（执行中），2026-10-12 起，当前版本 v3.1。本机 ZCode（`~/.agents/skills/`）与 Qoder（`~/.qoder-cn/`）两份副本均与仓库逐字节一致。
